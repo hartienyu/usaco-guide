@@ -107,7 +107,7 @@ should know how to use built-in methods.
 To sort static arrays, use `sort(arr, arr + N)` where $N$ is the number of
 elements to be sorted. The range can also be specified by replacing `arr` and
 `arr + N` with the intended range. For example, `sort(arr + 1, arr + 4)` sorts
-indices $[1, 4)$.
+indices $[1, 4]$.
 
 ```cpp
 #include <bits/stdc++.h>
@@ -181,7 +181,7 @@ Two ways to avoid this:
 In order to sort a dynamic array, use `sort(v.begin(), v.end())` (or
 `sort(begin(v),end(v))`). The default sort function sorts the array in ascending
 order. Similarly, we can specify the range. For example,
-`sort(v.begin() + 1, v.begin() + 4)` sorts indices $[1, 4)$.
+`sort(v.begin() + 1, v.begin() + 4)` sorts indices $[1, 4]$.
 
 ```cpp
 #include <bits/stdc++.h>
